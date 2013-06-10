@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mp3li/mp3li.iml" filepath="$PROJECT_DIR$/mp3li/mp3li.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source.iml" filepath="$PROJECT_DIR$/source.iml" />
+    </modules>
+  </component>
+</project>
+
