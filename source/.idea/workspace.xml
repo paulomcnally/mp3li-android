@@ -12,15 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc7b8ad-9b9b-41f6-bbb7-ed69c159b233" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Bitbucket\mp3li-android\source\mp3li\src\main\res\drawable-hdpi\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Bitbucket\mp3li-android\source\mp3li\src\main\res\drawable-mdpi\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Bitbucket\mp3li-android\source\mp3li\src\main\res\drawable-xhdpi\logo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3li/build/source/r/debug/com/mc/mp3li/R.java" afterPath="$PROJECT_DIR$/mp3li/build/source/r/debug/com/mc/mp3li/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3li/build/source/r/release/com/mc/mp3li/R.java" afterPath="$PROJECT_DIR$/mp3li/build/source/r/release/com/mc/mp3li/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java" afterPath="$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3li/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mp3li/build/res/all/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3li/build/res/all/release/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mp3li/build/res/all/release/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3li/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mp3li/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3li/src/main/res/layout/list.xml" afterPath="$PROJECT_DIR$/mp3li/src/main/res/layout/list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mp3li.iws" />
@@ -85,10 +79,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mp3li/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="56" selection-start="289" selection-end="289" vertical-scroll-proportion="0.12662943" vertical-offset="0" max-vertical-offset="1020">
+            <state line="16" column="36" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -109,33 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_selector.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mp3li/src/main/res/drawable/list_selector.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_selector_pressed.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mp3li/src/main/res/drawable/list_selector_pressed.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="64" selection-start="205" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_selector_selected.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mp3li/src/main/res/drawable/list_selector_selected.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="56" selection-start="198" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Api.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/tools/Api.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,11 +112,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="58" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="2856">
-              <folding />
+            <state line="248" column="16" selection-start="8417" selection-end="8417" vertical-scroll-proportion="0.19464286" vertical-offset="3869" max-vertical-offset="4454">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,12 +180,12 @@
         <option value="$PROJECT_DIR$/mp3li/src/main/res/values/dialog.xml" />
         <option value="$PROJECT_DIR$/mp3li/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/mp3li/src/main/res/values-es/strings.xml" />
-        <option value="$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java" />
         <option value="$PROJECT_DIR$/mp3li/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/mp3li/src/main/res/drawable/list_selector_pressed.xml" />
         <option value="$PROJECT_DIR$/mp3li/src/main/res/layout/list.xml" />
         <option value="$PROJECT_DIR$/mp3li/src/main/res/drawable/list_selector_selected.xml" />
         <option value="$PROJECT_DIR$/mp3li/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -252,7 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -640,6 +608,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,8 +624,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -836,10 +805,14 @@
       <created>1370926498051</created>
       <updated>1370926498051</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="List solution on presed and selected">
+      <created>1370928437964</created>
+      <updated>1370928437964</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -861,32 +834,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852808" sideWeight="0.34982935" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.28668943" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.28668943" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6501706" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037935" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67235494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.67235494" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -894,13 +867,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.28668943" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.28668943" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037935" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1002,7 +975,9 @@
     <entry file="file://$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,8 +985,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="663">
           <folding>
-            <element signature="e#405#423#0" expanded="true" />
-            <element signature="e#563#581#0" expanded="true" />
+            <element signature="e#405#423#0" expanded="false" />
+            <element signature="e#563#581#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1047,13 +1022,6 @@
     <entry file="file://$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/tools/Api.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="13" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="58" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="2856">
           <folding />
         </state>
       </provider>
@@ -1098,12 +1066,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mp3li/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="56" selection-start="289" selection-end="289" vertical-scroll-proportion="0.12662943" vertical-offset="0" max-vertical-offset="1020">
+        <state line="16" column="36" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mp3li/src/main/java/com/mc/mp3li/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="248" column="16" selection-start="8417" selection-end="8417" vertical-scroll-proportion="0.19464286" vertical-offset="3869" max-vertical-offset="4454">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
