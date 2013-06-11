@@ -16,14 +16,17 @@ public final class R {
     }
     public static final class drawable {
         public static final int gradient_header=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int ic_search=0x7f020002;
-        public static final int ic_search_inverse=0x7f020003;
+        public static final int gradient_list=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int ic_search=0x7f020003;
+        public static final int ic_search_inverse=0x7f020004;
+        public static final int logo=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f080002;
+        public static final int action_settings=0x7f080003;
         public static final int editTextSearch=0x7f080000;
         public static final int imageButton=0x7f080001;
+        public static final int linearLayoutList=0x7f080002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
