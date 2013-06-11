@@ -2,10 +2,7 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:orientation="vertical"
-              android:background="@drawable/gradient_list"
-              tools:context=".MainActivity">
-
+              android:orientation="vertical">
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="70dp"
@@ -30,9 +27,18 @@
 
     </LinearLayout>
 
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/divider">
+
+    </View>
+
     <ScrollView
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="wrap_content"
+            android:fillViewport="false">
         <LinearLayout
                 android:id="@+id/linearLayoutList"
                 android:orientation="vertical"

@@ -1,13 +1,18 @@
 package com.mc.mp3li;
 
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -23,6 +28,7 @@ import org.json.JSONObject;
 public class MainActivity extends Activity {
 
     private Api api = null;
+    private final ProgressDialog dialog = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +51,8 @@ public class MainActivity extends Activity {
                 new AsyncRequest().execute(search_text.getText().toString());
             }
         });
+
+
     }
 
 
@@ -58,6 +66,7 @@ public class MainActivity extends Activity {
     private class AsyncRequest extends AsyncTask<String, String, JSONArray> {
 
         protected void onPreExecute() {
+            getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
             // progressBarHome.setVisibility(View.VISIBLE);
         }
 
@@ -90,7 +99,7 @@ public class MainActivity extends Activity {
 
                             TextView artist = (TextView) view_list
                                     .findViewById(R.id.textViewArtist);
-                            artist.setText(song.getString("artist"));
+                            artist.setText(song.getString("artist") + " | " + song.getString("duration"));
 
                             final String link = song.getString("link");
 
@@ -98,7 +107,9 @@ public class MainActivity extends Activity {
 
                                 @Override
                                 public void onClick(View v) {
-                                    Toast.makeText(getApplicationContext(), link, Toast.LENGTH_LONG).show();
+
+                                    showDialog();
+                                    // Toast.makeText(getApplicationContext(), link, Toast.LENGTH_LONG).show();
 
                                 }
 
@@ -116,6 +127,36 @@ public class MainActivity extends Activity {
                 }
             }
         }
+
     }
 
+    private void showDialog() {
+        //Log.i(TAG, "show Dialog ButtonClick");
+        AlertDialog.Builder builder =
+                new AlertDialog.Builder(this);
+        builder.setTitle(getString(R.string.dialog_title));
+
+        builder.setItems(
+                R.array.dialog_array,
+                new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(
+                            DialogInterface dialog,
+                            int which) {
+
+                    }
+                }).setNegativeButton(getString(R.string.dialog_cancel),
+                new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog,
+                                        int which) {
+
+                    }
+                }
+        );
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
 }
